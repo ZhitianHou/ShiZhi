@@ -8,9 +8,8 @@
   <a href="https://huggingface.co/TIM0927/ShiZhi">
     <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFDD33?label=ShiZhi&labelColor=1a73e8" alt="Hugging Face Link"/>
   </a>
-
-  <a href="https://huggingface.co/TIM0927/CCVG">
-    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFDD33?label=ShiZhi&labelColor=1a73e8" alt="Hugging Face Link"/>
+  <a href="https://huggingface.co/datasets/TIM0927/CCVG">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFDD33?label=CCVG&labelColor=1a73e8" alt="Hugging Face Link"/>
   </a>
 </p>
 
@@ -48,11 +47,6 @@ ShiZhi is trained on **CCVG**, a curated dataset of over **110K Chinese criminal
   <img src="images/length_statistic.png" alt="Court View Example" width="70%"/><br/>
   <img src="images/charge_statistic.png" alt="Dataset Statistics" width="70%"/>
 </p>
-
-## 🔗 Model & Dataset Access
-
-- 🤗 **Hugging Face:** [https://huggingface.co/TIM0927/ShiZhi](https://huggingface.co/TIM0927/ShiZhi)  
-- 🌐 **ModelScope:** [https://www.modelscope.cn/models/ZhitianHou/ShiZhi](https://www.modelscope.cn/models/ZhitianHou/ShiZhi)
 
 ---
 
