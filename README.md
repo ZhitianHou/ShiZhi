@@ -11,6 +11,9 @@
   <a href="https://huggingface.co/datasets/TIM0927/CCVG">
     <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFDD33?label=CCVG&labelColor=1a73e8" alt="Hugging Face Link"/>
   </a>
+  <a href="https://www.modelscope.cn/datasets/ZhitianHou/CCVG">
+    <img src="https://img.shields.io/badge/ModelScope-8000FF?label=CCVG&labelColor=1a73e8" alt="ModelScope Link"/>
+  </a>
 </p>
 
 **ShiZhi (释之)** is a lightweight large language model designed for **Criminal Court View Generation (CVG)** in Chinese.  
