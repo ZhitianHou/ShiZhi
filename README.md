@@ -56,8 +56,5 @@ ShiZhi is trained on **CCVG**, a curated dataset of over **110K Chinese criminal
 
 ---
 
-Feel free to explore, fine-tune, or evaluate ShiZhi on your own legal AI tasks.
-
----
-
+## 📖 Citation
 📄 *The technical report is coming soon.*
