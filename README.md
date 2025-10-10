@@ -20,7 +20,7 @@ Its name comes from the historical figure **Zhang Shizhi (张释之)**, and in C
 
 ## ⚙️ Model Training
 
-ShiZhi is fine-tuned on the **CCVG** dataset using a 0.6B-parameter instruction-tuned LLM as the base model.  
+ShiZhi is fine-tuned on the **CCVG** dataset using a 0.5B-parameter instruction-tuned LLM as the base model.  
 The training pipeline includes data curation, prompt construction, and instruction tuning tailored for CVG and charge prediction tasks.  
 
 <p align="center">
@@ -34,7 +34,7 @@ The performance of ShiZhi on **court view generation** and **charge prediction**
 | **Models** | **ROUGE-1** | **ROUGE-2** | **ROUGE-L** | **BLEU-1** | **BLEU-2** | **BLEU-N** | **Accuracy** | **Macro-F1** |
 |-------------|-------------|-------------|-------------|-------------|-------------|-------------|---------------|---------------|
 | Qwen2-0.5B-Instruct | 0.0 | 0.0 | 0.0 | 11.1 | 6.3 | 2.9 | 17.3 | 29.5 |
-| **ShiZhi** | **6.3** | **0.8** | **6.3** | **58.5** | **51.0** | **41.7** | **86.1** | **92.5** |
+| **ShiZhi** | **6.3** | **0.8** | **6.3** | **58.5** | **51.0** | **41.7** | **86.5** | **92.8** |
 
 ShiZhi substantially outperforms the base model across both **BLEU/ROUGE** metrics and **charge prediction (Accuracy, Macro-F1)**.
 
