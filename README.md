@@ -4,6 +4,16 @@
 
 # ShiZhi: A Lightweight Large Model for Court View Generation
 
+<p align="center">
+  <a href="https://huggingface.co/TIM0927/ShiZhi">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFDD33?label=ShiZhi&labelColor=1a73e8" alt="Hugging Face Link"/>
+  </a>
+
+  <a href="https://huggingface.co/TIM0927/CCVG">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFDD33?label=ShiZhi&labelColor=1a73e8" alt="Hugging Face Link"/>
+  </a>
+</p>
+
 **ShiZhi (释之)** is a lightweight large language model designed for **Criminal Court View Generation (CVG)** in Chinese.  
 Its name comes from the historical figure **Zhang Shizhi (张释之)**, and in Chinese, “释之” also conveys the meaning of “explaining” or “interpreting,” which is particularly suitable for generating the *court view* section in legal case documents.
 
@@ -11,14 +21,12 @@ Its name comes from the historical figure **Zhang Shizhi (张释之)**, and in C
 
 ## ⚙️ Model Training
 
-ShiZhi is fine-tuned on the **ChineseLR** dataset using a 0.6B-parameter instruction-tuned LLM as the base model.  
+ShiZhi is fine-tuned on the **CCVG** dataset using a 0.6B-parameter instruction-tuned LLM as the base model.  
 The training pipeline includes data curation, prompt construction, and instruction tuning tailored for CVG and charge prediction tasks.  
 
 <p align="center">
   <img src="images/Pipeline.png" alt="Training Pipeline" width="70%"/>
 </p>
-
----
 
 ## 📊 Model Performance
 
@@ -31,15 +39,15 @@ The performance of ShiZhi on **court view generation** and **charge prediction**
 
 ShiZhi substantially outperforms the base model across both **BLEU/ROUGE** metrics and **charge prediction (Accuracy, Macro-F1)**.
 
----
+## 📚 Dataset: CCVG
 
-## 📚 Dataset: ChineseLR
+ShiZhi is trained on **CCVG**, a curated dataset of over **110K Chinese criminal cases**.  Each case includes a **fact description** and its corresponding **court view**, supporting both **court view generation** and **charge prediction** tasks. Below are some **visualizations of the dataset**, including examples of fact–court view pairs and length statistics.
 
-ShiZhi is trained on **ChineseLR**, a curated dataset of over **110K Chinese criminal cases**.  
-Each case includes a **fact description** and its corresponding **court view**,  
-supporting both **court view generation** and **charge prediction** tasks.
-
----
+<p align="center">
+  <img src="images/year_statistic.png" alt="Fact Example" width="70%"/><br/>
+  <img src="images/length_statistic.png" alt="Court View Example" width="70%"/><br/>
+  <img src="images/charge_statistic.png" alt="Dataset Statistics" width="70%"/>
+</p>
 
 ## 🔗 Model & Dataset Access
 
