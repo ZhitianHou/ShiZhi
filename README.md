@@ -11,7 +11,7 @@
   <a href="https://huggingface.co/datasets/TIM0927/CCVG">
     <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFDD33?label=CCVG&labelColor=1a73e8" alt="Hugging Face Link"/>
   </a>
-  <a href="https://modelscope.cn/models/freshman8888/ShiZhi">
+  <a href="https://modelscope.cn/models/freshman8888/LegalReasoningModel">
     <img src="https://img.shields.io/badge/&#x1F916%20ModelScope-5945D0?label=ShiZhi&labelColor=1a73e8" alt="ModelScope Link"/>
   </a>
   <a href="https://www.modelscope.cn/datasets/ZhitianHou/CCVG">
