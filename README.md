@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2510.09297">
-    <img src="https://img.shields.io/badge/%F0%9F%93%84%20Technical--Report-red?label=ShiZhi|CCVG&labelColor=1a73e8" alt="Technical Report Link"/>
+    <img src="https://img.shields.io/badge/%F0%9F%93%84%20Technical%20Report-red?label=ShiZhi|CCVG&labelColor=1a73e8" alt="Technical Report Link"/>
   </a>
   <a href="https://huggingface.co/TIM0927/ShiZhi">
     <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFDD33?label=ShiZhi&labelColor=1a73e8" alt="Hugging Face Link"/>
