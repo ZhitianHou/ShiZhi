@@ -5,6 +5,9 @@
 # ShiZhi: A Lightweight Large Model for Court View Generation
 
 <p align="center">
+  <a href="https://arxiv.org/abs/2510.09297">
+    <img src="https://img.shields.io/badge/%F0%9F%93%84%20Technical--Report-red?label=ShiZhi|CCVG&labelColor=1a73e8" alt="Technical Report Link"/>
+  </a>
   <a href="https://huggingface.co/TIM0927/ShiZhi">
     <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-FFDD33?label=ShiZhi&labelColor=1a73e8" alt="Hugging Face Link"/>
   </a>
@@ -57,4 +60,15 @@ ShiZhi is trained on **CCVG**, a curated dataset of over **110K Chinese criminal
 ---
 
 ## 📖 Citation
-📄 *The technical report is coming soon.*
+If you find this project helpful, please consider citing our paper:
+```bibtet
+@misc{hou2025shizhichineselightweightlarge,
+      title={ShiZhi: A Chinese Lightweight Large Language Model for Court View Generation}, 
+      author={Zhitian Hou and Kun Zeng},
+      year={2025},
+      eprint={2510.09297},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2510.09297}, 
+}
+```
