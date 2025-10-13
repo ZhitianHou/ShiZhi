@@ -61,7 +61,7 @@ ShiZhi is trained on **CCVG**, a curated dataset of over **110K Chinese criminal
 
 ## 📖 Citation
 If you find this project helpful, please consider citing our paper:
-```bibtet
+```bibtex
 @misc{hou2025shizhichineselightweightlarge,
       title={ShiZhi: A Chinese Lightweight Large Language Model for Court View Generation}, 
       author={Zhitian Hou and Kun Zeng},
