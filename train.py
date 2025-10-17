@@ -18,7 +18,7 @@ def get_parser():
     parser = argparse.ArgumentParser('TrainingShiZhi')
     parser.add_argument('--dataset', type=str, default='data/train/CCVG/train.jsonl')
     parser.add_argument('--test_dataset', type=str, default='data/test/CCVG/test.jsonl')
-    parser.add_argument('--max_length', type=int, default=512)
+    parser.add_argument('--max_length', type=int, default=1024)
     parser.add_argument('--learning_rate', type=float, default=1e-3)
     parser.add_argument('--epochs', type=int, default=3)
     parser.add_argument('--batch_size', type=int, default=4)
