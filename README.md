@@ -36,6 +36,36 @@ The training pipeline includes data curation, prompt construction, and instructi
   <img src="images/Pipeline.png" alt="Training Pipeline" width="70%"/>
 </p>
 
+### Quick Start
+If you want to reproduce our experiments, you can follow these steps:
+1. Clone repository
+```bash
+git clone https://github.com/ZhitianHou/ShiZhi.git
+```
+
+2. Download base-model from modelscope
+```bash
+modelscope download --model qwen/Qwen2-0.5B-Instruct --local_dir /path/to/your/base/model
+```
+
+3. Install swift-2.34.0
+```bash
+pip install swift==2.34.0
+```
+
+4. Training Model
+```bash
+cd ShiZhi
+python train.py
+```
+
+If you want to use latest version of swift for training, please use:
+```bash
+pip install swift
+bash train.sh
+```
+
+
 ## 📊 Model Performance
 
 The performance of ShiZhi on **court view generation** and **charge prediction** is summarized below:
