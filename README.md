@@ -53,7 +53,7 @@ modelscope download --model qwen/Qwen2-0.5B-Instruct --local_dir /path/to/your/b
 pip install swift==2.34.0
 ```
 
-4. Training Model
+4. Training Model and Inference
 ```bash
 cd ShiZhi
 python train.py
@@ -65,6 +65,10 @@ pip install swift
 bash train.sh
 ```
 
+5. Evaluation 
+```bash
+python evaluation.py
+```
 
 ## 📊 Model Performance
 
@@ -72,8 +76,8 @@ The performance of ShiZhi on **court view generation** and **charge prediction**
 
 | **Models** | **ROUGE-1** | **ROUGE-2** | **ROUGE-L** | **BLEU-1** | **BLEU-2** | **BLEU-N** | **Accuracy** | **Macro-F1** |
 |-------------|-------------|-------------|-------------|-------------|-------------|-------------|---------------|---------------|
-| Qwen2-0.5B-Instruct | 0.0 | 0.0 | 0.0 | 11.1 | 6.3 | 2.9 | 17.3 | 29.5 |
-| **ShiZhi** | **6.3** | **0.8** | **6.3** | **58.5** | **51.0** | **41.7** | **86.5** | **92.8** |
+| Qwen2-0.5B-Instruct | 24.18 | 6.53 | 16.40 | 29.16 | 17.11 | 9.24 | 16.29 | 28.02 |
+| **ShiZhi** | **70.00** | **51.07** | **59.61** | **67.85** | **62.92** | **54.76** | **86.48** | **92.75** |
 
 ShiZhi substantially outperforms the base model across both **BLEU/ROUGE** metrics and **charge prediction (Accuracy, Macro-F1)**.
 
